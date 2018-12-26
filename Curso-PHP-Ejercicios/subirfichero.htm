@@ -1,0 +1,12 @@
+<HTML>
+  <head>
+    <title>Pagina de subida de archivos</title></head>
+    <body>
+      <h1>Subida de archivos</h1>
+      <form action"subirfichero.php" method="POST" enctype="multipart/form-data">
+        <!--Referenciamos al fichero.php que realizara la accion -->
+        Introduce el nombre del fichero: <input type="file" name="fichero"><br>
+        <input type="hidden" name"MAX_FILE_SIZE" value="1000000">
+        <!--El hidden permite asignar el max de tam permitido-->
+        <input type="submit" value="Enviar ficheros">
+        <!--El boton de submit ejecuta la accion-->
