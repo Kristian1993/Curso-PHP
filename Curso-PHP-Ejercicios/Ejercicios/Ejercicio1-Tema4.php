@@ -1,7 +1,7 @@
 
 <html>
 <p>Introduce tu nombre aquí: </p>
-      <form action="Ejercicio1-Tema4-2.php" method="POST" enctype="multipart/form-data">
-<input type="text" name="nombre"/>
-<input type="submit" onclick="">
+      <form action="Ejercicio1-Tema4-2.php" method="POST">
+     <input type="text" name="nombre" id="nombre" value=""/>
+<input type="submit" value="Enviar">
 </form>
